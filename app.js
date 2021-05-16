@@ -4,8 +4,6 @@ var menuBar = document.getElementById('top-menu');
 
      menuBar.addEventListener('click', openNav);
 
-
-
 var cancelIcon = document.getElementById('closebtn');
 
 cancelIcon.addEventListener('click', closeNav);
