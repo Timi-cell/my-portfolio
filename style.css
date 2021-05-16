@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
 
-
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 
 body{
   background-color:rgba(10, 10, 10, 0.8);
@@ -14,9 +17,25 @@ body{
 
 
 
-*{
-    box-sizing: border-box;
+.nav-1{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+width: 100%;
+margin-top: 20px;
 }
+
+
+.logo{
+  color: rgb(250, 173, 31);
+  margin-left: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+  margin-top: 10px;
+  width:50%;
+  text-shadow:3px 2px 2px rgb(250, 173, 31) ;
+}
+
 
 .section2{
   width: 100%;
@@ -831,15 +850,6 @@ footer{
   width: 400px;
 }
 
-.logo{
-  color: rgb(250, 173, 31);
-  margin-left: 35px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 3rem;
-  margin-top: 10px;
-  width:50%;
-  text-shadow:3px 2px 2px rgb(250, 173, 31) ;
-}
 
 
 li{
@@ -996,13 +1006,7 @@ ul > li{
 
 
 
-.nav-1{
-  display: flex;
-  justify-content: space-between;
-  height: auto;
-width: 100%;
-margin-top: 20px;
-}
+
 
 
 .image{
