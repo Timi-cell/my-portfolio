@@ -222,6 +222,7 @@ margin-bottom: 20px;
  padding-bottom: 25px;
   height: auto;
   margin-top: 35px;
+
   }
 
 
@@ -231,7 +232,7 @@ margin-bottom: 20px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
+    position: relative;
 }
 
 
@@ -299,6 +300,9 @@ line-height: 35px;
   color: white;
 }
 
+#navigator{
+  display: none;
+}
 
 /* Services Section */
 
@@ -782,6 +786,19 @@ width: 100%;
 }
 
 
+#navigator{
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  background-color: rgb(250, 173, 31);
+  display: block;
+}
+
+#navigator > a{
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+
 .overlay{
   position: fixed;
   background-color: #363737;
@@ -937,17 +954,13 @@ width: 100%;
   }
 
 
-  .imagesOutline{
-    width: auto;
+  img.imagesOutline{
+    width: 400px;
     margin: 10px;
     height: auto;
   }
 
-img.imagesOutline{
-  
-  height: auto;
-  width:100%;
-}
+
 
 
 .fromAbtToFooter{
