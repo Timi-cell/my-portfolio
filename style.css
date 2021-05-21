@@ -1009,11 +1009,11 @@ div.projects{
 }
 
 
-/* @media (max-width:380px) {
+@media (max-width:480px) {
   body{
-    width: 500px;
+    width: 800px;
   }
-} */
+} 
 
 @media (max-width:850px) {
   div.formSpace{
