@@ -1009,9 +1009,9 @@ div.projects{
 }
 
 
-@media (max-width:480px) {
+@media (max-width:280px) {
   body{
-    width: 800px;
+    width: 500px;
   }
 } 
 
