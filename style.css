@@ -362,7 +362,6 @@ line-height: 35px;
 #cert1{
   width: 50%;
   height: auto;
- 
   border-radius: 15px;
 }
 
@@ -927,7 +926,7 @@ width: 100%;
 
 
 #cert1{
-  width: -webkit-fill-available;
+  width: 100%;
   height: auto;
  
   border-radius: 15px;
@@ -935,7 +934,7 @@ width: 100%;
 
 
 #cert2{
-  width : -webkit-fill-available;
+  width : 100%;
   height: auto;
   margin-top: 30px;
     border-radius: 15px;
@@ -943,14 +942,14 @@ width: 100%;
 }
 
 #cert3{
-  width:-webkit-fill-available;
+  width:100%;
   height: auto;
   border-radius: 15px;
   margin-top: 30px;
 }
 
 #cert4{
-  width:-webkit-fill-available;
+  width:100%;
   height: auto;
   border-radius: 15px;
     margin-top: 30px;
@@ -958,7 +957,7 @@ width: 100%;
 
 
   #lastImage{
-    width: -webkit-fill-available;
+    width: 100%;
     margin: 15px;
   }
 
