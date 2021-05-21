@@ -216,9 +216,7 @@ margin-bottom: 20px;
 
  /* the About section styles */
 
-.fromAbtToFooter{
-  width: 100%;
-}
+
 
 section#section1{
   background-color: rgba(105, 105, 105, 0.2);
@@ -919,7 +917,7 @@ width: 100%;
   top: 20px;
   right: 2px;
   font-size: 40px;
-  margin: auto;
+  margin: 10px;
   cursor: pointer;
   color:rgb(250, 173, 31);
 }
