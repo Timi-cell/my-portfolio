@@ -8,6 +8,7 @@ body{
   padding: 0 auto;
   color: rgb(211, 204, 204);
   font-family: poppins;
+  box-sizing: border-box;
 }
 
 
@@ -63,10 +64,6 @@ html{
   scroll-behavior: smooth;
 }
 
-
-*{
-    box-sizing: border-box;
-}
 
 /* the logo and navigation links */
 .nav-1{
@@ -363,6 +360,7 @@ line-height: 35px;
   width: 50%;
   height: auto;
   border-radius: 15px;
+    
 }
 
 
@@ -370,7 +368,7 @@ line-height: 35px;
   width: 47%;
   height: auto;
     border-radius: 15px;
-
+    
 }
 
 #cert3{
@@ -378,6 +376,7 @@ line-height: 35px;
   height: 500px;
   border-radius: 15px;
   margin-top: 20px;
+    
 }
 
 #cert4{
@@ -385,25 +384,26 @@ line-height: 35px;
   height: auto;
   border-radius: 15px;
     margin-top: 20px;
+    
 }
 
 
 #cert1:hover{
 
-  transform: scale(1.01);
+  transform: scale(1.05);
 
 }
 
 #cert2:hover{
-  transform: scale(1.01);
+  transform: scale(1.05);
 }
 
 #cert3:hover{
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 #cert4:hover{
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 
@@ -926,7 +926,7 @@ width: 100%;
 
 
 #cert1{
-  width: 100%;
+  width: -webkit-fill-available;
   height: auto;
  
   border-radius: 15px;
@@ -934,7 +934,7 @@ width: 100%;
 
 
 #cert2{
-  width : 100%;
+  width : -webkit-fill-available;
   height: auto;
   margin-top: 30px;
     border-radius: 15px;
@@ -942,22 +942,25 @@ width: 100%;
 }
 
 #cert3{
-  width:100%;
+  width:-webkit-fill-available;
   height: auto;
   border-radius: 15px;
   margin-top: 30px;
 }
 
 #cert4{
-  width:100%;
+  width:-webkit-fill-available;
   height: auto;
   border-radius: 15px;
     margin-top: 30px;
 }
 
+.formSpace{
+  transform: scale(1.12);
+}
 
   #lastImage{
-    width: 100%;
+    width: -webkit-fill-available;
     margin: 15px;
   }
 
@@ -976,11 +979,6 @@ width: 100%;
 
 }
 
-
-
-body{
-  box-sizing: border-box;
-}
 
 
 
