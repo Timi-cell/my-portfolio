@@ -29,9 +29,16 @@ input{
     outline: none;
     text-align: left;
     color: white;
-
 }
 
+input:focus{
+  background-color: green;
+  color: white;
+}
+
+input::placeholder{
+  color: white;
+}
 
 li{
   list-style: none;
@@ -232,7 +239,7 @@ margin-bottom: 20px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-    position: relative;
+  position: relative;
 }
 
 
@@ -243,10 +250,12 @@ margin-bottom: 20px;
    background-size: 30%;
    background-repeat: no-repeat;
    background-position:center;
+ 
 }
 
 .abt{
   position: relative;
+
 }
 
 .abt::after{
