@@ -9,6 +9,7 @@ var cancelIcon = document.getElementById('closebtn');
 cancelIcon.addEventListener('click', closeNav);
 
 
+
 function openNav ()
 {
     var show = document.getElementById('myNav');
@@ -28,10 +29,6 @@ var all = document.getElementsByClassName('overlay-content');
         all[0].addEventListener('click', closeNav);
    
     }
-
-
-
-
 
 
 

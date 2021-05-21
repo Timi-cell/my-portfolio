@@ -29,6 +29,7 @@ input{
     box-sizing: border-box;
     outline: none;
     text-align: left;
+    color: white;
 
 }
 
@@ -653,7 +654,7 @@ img.imagesOutline{
   display: inline-block;
     resize: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+  color: white;
 }
 
 #submit-button{
