@@ -968,11 +968,6 @@ width: 100%;
 
 
 
-.fromAbtToFooter{
-  width: 100%;
-
-}
-
 
   nav.nav-2{
   display: flex;
@@ -1013,10 +1008,6 @@ div.projects{
 
 div#phonenum{
   width: 100%;
-}
-
-.fromAbtToFooter{
-  width: auto;
 }
 
 div#emailnum{
