@@ -33,7 +33,7 @@ input{
 
 input:focus{
   background-color: green;
-  color: white;
+   color: white;
 }
 
 input::placeholder{
@@ -1009,11 +1009,11 @@ div.projects{
 }
 
 
-@media (max-width:380px) {
+/* @media (max-width:380px) {
   body{
     width: 500px;
   }
-}
+} */
 
 @media (max-width:850px) {
   div.formSpace{
