@@ -217,16 +217,15 @@ margin-bottom: 20px;
  /* the About section styles */
 
 .fromAbtToFooter{
-  width: auto;
+  width: 100%;
 }
 
-#section1{
+section#section1{
   background-color: rgba(105, 105, 105, 0.2);
   clear: both;
  padding-bottom: 25px;
   height: auto;
   margin-top: 35px;
-
   }
 
 
@@ -920,14 +919,14 @@ width: 100%;
   top: 20px;
   right: 2px;
   font-size: 40px;
-  margin: 10px;
+  margin: auto;
   cursor: pointer;
   color:rgb(250, 173, 31);
 }
 
 
 #cert1{
-  width: fit-content;
+  width: 100%;
   height: auto;
  
   border-radius: 15px;
@@ -935,7 +934,7 @@ width: 100%;
 
 
 #cert2{
-  width : fit-content;
+  width : 100%;
   height: auto;
   margin-top: 30px;
     border-radius: 15px;
@@ -943,14 +942,14 @@ width: 100%;
 }
 
 #cert3{
-  width:fit-content;
+  width:100%;
   height: auto;
   border-radius: 15px;
   margin-top: 30px;
 }
 
 #cert4{
-  width:fit-content;
+  width:100%;
   height: auto;
   border-radius: 15px;
     margin-top: 30px;
@@ -961,7 +960,7 @@ width: 100%;
 }
 
   #lastImage{
-    width: fit-content;
+    width: 100%;
     margin: 15px;
   }
 
@@ -979,10 +978,6 @@ width: 100%;
   width: 100%;
 
 }
-
-
-
-
 
 
   nav.nav-2{
@@ -1007,7 +1002,7 @@ div.projects{
 }
 
 
-@media (max-width:280px) {
+@media (max-width:480px) {
   body{
     width: 500px;
   }
