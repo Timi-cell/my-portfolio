@@ -11,7 +11,13 @@ body{
   box-sizing: border-box;
 }
 
+nav{
+  max-width:100%;
+}
 
+section{
+  max-width: 100%;
+}
 a{
     text-decoration: none;
     color:rgb(250, 173, 31)
@@ -975,6 +981,7 @@ width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   height: auto;
+  width: auto;
 }
 
 
