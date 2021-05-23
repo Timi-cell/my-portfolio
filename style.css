@@ -309,7 +309,8 @@ line-height: 35px;
 /* Services Section */
 
 .section2{
-  width: 100%;
+  width: auto;
+  height: auto;
 }
 
 .serv{
@@ -339,12 +340,13 @@ line-height: 35px;
 }
 
 .serviceslist{
-  display: flex;
+ display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   margin: 20px;
-  justify-content: space-between;
+  justify-content: space-between; 
    transition:0.4s;
+
 }
 
 #short{
@@ -353,34 +355,30 @@ line-height: 35px;
 
 
 #cert1{
-  width: 50%;
+ width: 50%;
   height: auto;
   border-radius: 15px;
-    
 }
 
 
 #cert2{
-  width: 47%;
+ width: 47%;
   height: auto;
     border-radius: 15px;
-    
 }
-
 #cert3{
-  width:50%;
+width:50%;
   height: 500px;
   border-radius: 15px;
-  margin-top: 20px;
-    
+  margin-top: 20px; 
 }
 
 #cert4{
   width:47%;
   height: auto;
   border-radius: 15px;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
+
 }
 
 
@@ -408,7 +406,7 @@ line-height: 35px;
 .section3{
      background-color: rgba(105, 105, 105, 0.2);
      height: auto;
-  width: 100%;
+     width: 100%;
 }
 
 
@@ -439,15 +437,14 @@ line-height: 35px;
 
 
 img.imagesOutline{
-  object-fit: cover;
+ object-fit: cover;
   height: 100%;
-  width: 85%;
-
+  width: 100%;
 }
 
 .project{
   display: flex;
-  margin:100px;
+  margin:50px 50px;
   justify-content: center;
 }
 
@@ -466,9 +463,10 @@ img.imagesOutline{
 
 .imagesproject {
     display: grid;
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(3, 200px);
-  gap: 15px;
+  grid-template-columns: repeat(4, 205px);
+  grid-template-rows: repeat(3, 202px);
+  gap: 20px;
+  align-items: center;
   grid-template-areas:
     "one one  two three"
     "one one  four five"
@@ -761,7 +759,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 /* Media Queries */
 
-@media only screen and  (max-width:935px)  {
+@media screen and  (max-width:935px)  {
   .about{
   display: flex;
   flex-direction: column;
@@ -861,6 +859,7 @@ width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   margin:20px;
+  width: 100%;
 }
 
 .cards{
@@ -959,7 +958,8 @@ width: 100%;
 
 
   img.imagesOutline{
-    width: 400px;
+    width: 100%;
+    max-width: 100%;
     margin: 10px;
     height: auto;
   }
