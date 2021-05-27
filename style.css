@@ -5,11 +5,9 @@
 body{
   background-color:rgba(4, 3, 3, 0.8);
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 25px;
   color: rgb(211, 204, 204);
   font-family: poppins;
-  box-sizing: border-box;
-  width: auto;
 }
 
 body,html{
@@ -54,6 +52,7 @@ body,html{
 /* section2 */
 .section2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: anime 1s ease-in-out 0.5s 1 forwards ;
 }
 
 .left-text{
@@ -168,6 +167,10 @@ body,html{
     font-size: 25px;
 }
 
+.certificates-top > p:nth-child(2) {
+   font-style: italic;
+}
+
 .certificates-bottom{
     display: flex;
     flex-direction: row;
@@ -175,26 +178,354 @@ body,html{
     justify-content: space-around;
     margin: 20px;
     padding: 50px;
+    
 }
 
 .certificates-bottom > img:nth-child(1) {
     width: 50%;
     height: auto;
-    padding-top: 30px;
+    padding-top: 20px;
+    border-bottom-right-radius: 10px;
 }
 .certificates-bottom > img:nth-child(2) {
     width: 47%;
     height: auto;
-    padding-top: 30px;
+    padding-top: 20px;
+    border-bottom-right-radius: 10px;
 }
 .certificates-bottom > img:nth-child(3) {
    width: 50%;
     height: 100vh;
-  padding-top: 30px;
+  padding-top: 20px;
+  border-bottom-right-radius: 10px;
 }
 .certificates-bottom > img:nth-child(4) {
    width: 47%;
     height: 100vh;
-    padding-top: 30px;
+    padding-top: 20px;
+    border-bottom-right-radius: 10px;
 }
 
+/* Section 5 */
+.section5{
+    background-color: rgba(26, 24, 24, 0.336);
+    margin-top: 10px;
+}
+
+.projects-top{
+    text-align: center;
+}
+
+.projects-top >p:nth-child(1) {
+    font-size: 25px;
+}
+
+.projects-top >p:nth-child(2) {
+   font-style: italic;
+}
+
+
+
+.project{
+  display: flex;
+  margin:50px 50px;
+  justify-content: center;
+}
+
+.projects-images{
+  display: grid;
+  grid-template-columns: repeat(4, 205px);
+  grid-template-rows: repeat(3, 202px);
+  gap: 20px;
+  align-items: center;
+  grid-template-areas:
+    "one one  two three"
+    "one one  four five"
+    "eight eight six seven";
+    margin-bottom: 50px;
+}
+
+img.imagesOutline{
+ object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+#one{
+  grid-area: one;
+}
+
+#two{
+  grid-area: two;
+}
+
+#three{
+  grid-area: three;
+}
+
+#four{
+  grid-area: four;
+}
+
+#five{
+  grid-area: five;
+}
+
+#six{
+  grid-area: six;
+ 
+}
+
+#seven{
+  grid-area: seven;
+}
+
+#eight{
+  grid-area: eight;
+}
+
+
+.imagesOutline:hover{
+  opacity: 0.4;
+}
+
+/* Section 6 */
+.work-top{
+    text-align: center;
+}
+
+.work-top > p:nth-child(1) {
+    font-size: 25px;
+}
+
+.work-top > p:nth-child(2) {
+    font-style: italic;
+}
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.card{
+  width: 40%;
+  color: rgb(195, 197, 210);
+  background-color: rgba(10, 10, 10, 0.8);
+  padding: 10px;
+  transition: all 0.1s ease-in-out;
+  height: auto;
+  box-shadow: 1px 1px 1px rgb(203, 132, 0) , 2px 2px 4px black;
+}
+
+.card:hover{
+  background-color: rgb(250, 173, 31);
+  color: black;
+  transform: scale(1.02);
+  box-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+
+.Cards > div:nth-child(3) {
+    margin-top: 15px;
+}
+
+@keyframes anime {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+/* Section 7 */
+
+.section7{
+    background-color: rgba(26, 24, 24, 0.336);
+    margin-top: 10px;
+}
+
+
+.contact{
+   font-size: 25px;
+    text-align: center;
+}
+
+
+.goLinks > li{
+  list-style: none;
+  cursor: pointer;
+  color: rgb(211, 204, 204);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+}
+
+.section7  a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;   
+}
+
+
+#contactinfo{
+  margin-left: 40px;
+}
+
+.logolink{
+  color: rgb(211, 204, 204);
+}
+
+
+.left{
+  width: auto;
+}
+
+.right{
+  width: auto;
+  margin-top: 20px;
+}
+
+#textarea{
+    width: 100%;
+    background-color: rgba(105, 105, 105, 0.2);
+    border: 1px solid #363737;
+    border-radius: 5px;
+   text-align: left;
+    padding: 25px 20px;
+    margin: 18px 0;
+    box-sizing: border-box;
+    outline: none;
+  display: inline-block;
+    resize: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+#submit-button{
+  color: white;
+  background-color: rgb(250, 173, 31);
+  width: auto;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.phone-et-email{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row ;
+
+}
+
+#phonenum{
+  width: 45%;
+}
+
+#emailnum{
+  width: 50%;
+}
+
+.formSpace{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+  margin: 70px;
+
+  
+}
+
+.logolink:hover{
+  color: rgb(250, 173, 31);
+}
+
+
+.section7 input{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 18px 0;
+    display: inline-block;
+    background-color: rgba(105, 105, 105, 0.2);
+    border: 1px solid #363737;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: left;
+    color: white;
+}
+
+.section7 input:focus{
+  background-color: green;
+   color: white;
+}
+
+.section7 input::placeholder{
+    font-size: 15px;
+    color: rgb(201, 201, 201);
+}
+
+/* Section 8 */
+
+#bottom-logo{
+     color: rgb(237, 155, 4);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3.5rem;
+ text-align: center;
+ display: grid;
+ vertical-align: middle;
+ margin-top: 200px;
+  width: auto;
+  text-shadow:3px 2px 2px rgb(250, 173, 31) ;
+}
+
+#bottom-text{
+  text-align: center;
+  color: rgba(162, 162, 162, 0.816);
+}
+
+.social-media{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+padding-bottom: 50px;
+}
+
+.logolink1{
+    color: rgb(211, 204, 204);
+    border-radius: 50%;
+    background-color: rgba(105, 105, 105, 0.2);
+    padding: 5px 12px;
+    width: fit-content;
+
+}
+.logolink1:hover{
+  background-color: rgb(250, 173, 31);
+  color: black;
+}
+
+/* Section 9 */
+footer{
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.footer{
+ text-align: center;
+ border-top: 1px solid #727a7a;
+padding-top: 20px;
+color: rgba(162, 162, 162, 0.816);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Media Queries */
+
+@media  screen and (max-width:800px) {
+    body,html{
+        display: none;
+    }
+}
