@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
-@import url("style2.css");
 
 body{
   background-color:rgba(4, 3, 3, 0.8);
@@ -20,7 +19,7 @@ body,html{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px;
+    margin: 10px;
 }
 
 .logo{
@@ -29,7 +28,7 @@ body,html{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3rem;
   margin-top: 10px;
-  width:50%;
+  width: auto;
   text-shadow:3px 2px 2px rgb(250, 173, 31) ;
 }
 
@@ -41,7 +40,7 @@ body,html{
 
 .links a {
     text-decoration: none;
-    padding-left: 20px;
+    padding-left: 10px;
     color: whitesmoke;
 }
 
@@ -73,7 +72,7 @@ body,html{
     background-color: rgb(250, 173, 31);
     outline: none;
     padding:10px;
-    width: 20%;
+    width: auto;
     height: auto;
     border: none;
     cursor: pointer;
@@ -133,6 +132,7 @@ body,html{
 .about-left p{
     font-size:45px;
     letter-spacing:7px;
+    width: auto;
 }
 
 .about-right{
@@ -210,6 +210,7 @@ body,html{
 .section5{
     background-color: rgba(26, 24, 24, 0.336);
     margin-top: 10px;
+    
 }
 
 .projects-top{
@@ -433,9 +434,8 @@ img.imagesOutline{
   display: flex;
   flex-direction: row;
  justify-content: space-between;
-  margin: 70px;
-
-  
+ flex-wrap:nowrap;
+  margin: 8px;
 }
 
 .logolink:hover{
