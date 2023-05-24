@@ -11,16 +11,15 @@ const About = () => {
           A little about Samuel
         </h3>
         <p
-          className="lg:text-xl text-base mb-4 lg:mb-0 text-white text-left"
+          className="lg:text-md leading-7 text-base mb-4 lg:mb-0 text-white text-left"
           id="about-me"
         >
-          My journey started when I developed interest in frontend web
-          development and I went ahead to get myself proficient with HTML, CSS,
-          JavaScript. Afterwards, I thought of being the man that handles not
+          My journey started when I developed interest in front-end web
+          development and I went ahead to get myself proficient with HTML, CSS and its frameworks like Tailwind and Bootstrap,then JavaScript and I also mastered ReactJS, a JavaScript library for building user interfaces. Afterwards, I thought of being the man that handles not
           just the client side of my applications but also the server side of it
-          so I took a liking to backend web development and learnt NodeJS, a
-          runtime environment of JavaScript that can be used to manage the
-          server side of an application. I also got myself familiar with MongoDB
+          so I took a liking to back-end web development and learnt and mastered NodeJS, a
+          back-end JavaScript runtime environment that can be used to manage the
+          server side of an application. I also got myself familiar with ExpressJS, Git, MongoDB
           and later on, I transitioned into a fullstack web developer proficient
           with the MERN(MongoDB, Express, React, Node) stack and I build
           scalable web applications with it.

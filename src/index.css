@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +6,7 @@
 * {
   scroll-behavior: smooth;
   user-select: none;
+  font-family: "Open Sans", sans-serif;
 }
 
 textarea {
@@ -25,10 +27,17 @@ textarea {
   display: block !important;
 }
 
-img{
- object-fit: cover !important;
+img {
+  object-fit: cover !important;
 }
 
-.indiana-scroll-container{
+.indiana-scroll-container {
   border-radius: 0 !important;
+}
+
+.logo > div {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
