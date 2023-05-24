@@ -7,7 +7,7 @@ const Contact = () => {
       id="contact"
       className="flex mt-4 flex-col lg:flex-row gap-8a lg:gap-52 items-center justify-between lg:justify-center"
     >
-      <h2 className="text-gray-700 text-2xl lg:text-3xl">Hire/Contact Me</h2>
+      <h2 className="text-2xl lg:text-3xl">Hire/Contact Me</h2>
       <form className="flex flex-col gap-4 w-full lg:w-1/2">
         <div>
           <div className="mb-2 block">
