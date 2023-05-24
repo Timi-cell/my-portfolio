@@ -14,20 +14,32 @@ const Projects = () => {
         <a
           className="text-blue-500 lg:text-lg leading-7 text-base"
           href="https://github.com/Timi-cell?tab=repositories"
+          target="_blank"
+          rel="noreferrer"
         >
           Visit my GitHub Page to see more &rarr;
         </a>
       </div>
       <div className="lg:h-96 h-80 overflow-hidden">
         <Carousel indicators={false}>
-          <a href="https://in-ex.cyclic.app" className="h-full w-full">
+          <a
+            href="https://in-ex.cyclic.app"
+            className="h-full w-full"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src="https://res.cloudinary.com/dzqaqbrng/image/upload/v1684950536/inex_guovj6.png"
               alt="inex website"
               className="h-full w-full"
             />
           </a>
-          <a href="https://knowcountry.netlify.app" className="h-full w-full">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://knowcountry.netlify.app"
+            className="h-full w-full"
+          >
             <img
               src="https://res.cloudinary.com/dzqaqbrng/image/upload/v1684950529/countries_okg8cu.png"
               alt="knowcountry website"
@@ -35,6 +47,8 @@ const Projects = () => {
             />
           </a>
           <a
+            target="_blank"
+            rel="noreferrer"
             href="https://task-app-odld.onrender.com/"
             className="h-full w-full"
           >
@@ -44,14 +58,24 @@ const Projects = () => {
               alt="taskmanager website"
             />
           </a>
-          <a href="https://findgitx.netlify.app" className="h-full w-full">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://findgitx.netlify.app"
+            className="h-full w-full"
+          >
             <img
               src="https://res.cloudinary.com/dzqaqbrng/image/upload/v1684950520/gitx_naamkf.png"
               className="h-full w-full"
               alt="gitx website"
             />
           </a>
-          <a href="https://timicalc.netlify.app/" className="h-full w-full">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://timicalc.netlify.app/"
+            className="h-full w-full"
+          >
             <img
               src="https://res.cloudinary.com/dzqaqbrng/image/upload/v1684950512/calc_d1jgx4.png"
               className="h-full w-full"
