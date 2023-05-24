@@ -1,8 +1,6 @@
 import { Navbar } from "flowbite-react";
 import React from "react";
 
-    
-
 const Header = () => {
   return (
     <div className="px-4 py-1.5">
@@ -11,7 +9,6 @@ const Header = () => {
           <h1 className="text-4xl font-normal text-gray-900 md:text-5xl lg:text-6xl">
             S.
           </h1>
-          ;
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>

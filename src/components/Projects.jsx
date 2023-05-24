@@ -14,24 +14,24 @@ const Projects = () => {
       <div className="lg:h-96 h-80">
         <Carousel>
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
-            alt="..."
+            src="https://res.cloudinary.com/dzqaqbrng/image/upload/v1684950536/inex_guovj6.png"
+            alt="inex website"
           />
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-            alt="..."
+            src="https://res.cloudinary.com/dzqaqbrng/image/upload/v1684950529/countries_okg8cu.png"
+            alt="knowcountry website"
           />
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-            alt="..."
+            src="https://res.cloudinary.com/dzqaqbrng/image/upload/v1684950523/taskmanager_bdu7cg.png"
+            alt="taskmanager website"
           />
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-            alt="..."
+            src="https://res.cloudinary.com/dzqaqbrng/image/upload/v1684950520/gitx_naamkf.png"
+            alt="gitx website"
           />
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-            alt="..."
+            src="https://res.cloudinary.com/dzqaqbrng/image/upload/v1684950512/calc_d1jgx4.png"
+            alt="tcalc website"
           />
         </Carousel>
       </div>

@@ -1,9 +1,11 @@
 import React from "react";
-import Img from "../coding.jpg";
 
 const About = () => {
   return (
-    <div className="bg-gray-700 mt-4 flex flex-col-reverse items-center justify-center flex-nowrap gap-2 lg:justify-between text-left lg:flex-row-reverse lg:gap-5 lg:mt-0" id="about-me">
+    <div
+      className="bg-gray-700 mt-4 flex flex-col-reverse items-center justify-center flex-nowrap gap-2 lg:justify-between text-left lg:flex-row-reverse lg:gap-5 lg:mt-0"
+      id="about-me"
+    >
       <div className="p-4">
         <h3 className="text-white text-left text-3xl lg:text-4xl mb-4">
           A little about Samuel
@@ -26,7 +28,7 @@ const About = () => {
       </div>
       <img
         className="object-cover w-full p-0 lg:w-1/2"
-        src={Img}
+        src="https://res.cloudinary.com/dzqaqbrng/image/upload/v1684950548/coding_ztvrax.jpg"
         alt="aboutPic"
       />
     </div>
