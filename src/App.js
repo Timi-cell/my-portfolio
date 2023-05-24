@@ -32,7 +32,7 @@ function App() {
   return (
     <div>
       <Button
-        size="sm" color="dark"
+        size="sm"
         id="btn"
         onClick={TopFunc}
         className={display === "none" ? "" : "show"}

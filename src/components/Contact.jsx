@@ -5,13 +5,13 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex mt-4 flex-col lg:flex-row gap-8a lg:gap-52 items-center justify-between lg:justify-center"
+      className="flex bg-gray-700 flex-col md:flex-row gap-8 md:gap-52 items-center justify-between md:justify-center p-4 md:p-8"
     >
-      <h2 className="text-2xl lg:text-3xl">Hire/Contact Me</h2>
-      <form className="flex flex-col gap-4 w-full lg:w-1/2">
+      <h2 className="text-2xl md:text-3xl text-white">Hire/Contact Me</h2>
+      <form className="flex flex-col gap-4 w-full md:w-1/2">
         <div>
           <div className="mb-2 block">
-            <Label htmlFor="name" value="Name" />
+            <Label htmlFor="name" className="text-white" value="Name" />
           </div>
           <TextInput
             id="name"
@@ -22,7 +22,7 @@ const Contact = () => {
         </div>
         <div>
           <div className="mb-2 block">
-            <Label htmlFor="email" value="Email" />
+            <Label className="text-white" htmlFor="email" value="Email" />
           </div>
           <TextInput
             id="email"
@@ -33,7 +33,11 @@ const Contact = () => {
         </div>
         <div id="textarea">
           <div className="mb-2 block">
-            <Label htmlFor="message" value="Your message" />
+            <Label
+              className="text-white"
+              htmlFor="message"
+              value="Message"
+            />
           </div>
           <Textarea
             id="message"
@@ -42,7 +46,7 @@ const Contact = () => {
             rows={5}
           />
         </div>
-        <Button type="submit" className="w-20">
+        <Button type="submit"  size="lg" className="w-20">
           Send
         </Button>
       </form>
