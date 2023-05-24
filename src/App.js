@@ -8,6 +8,8 @@ import FooterComp from "./components/Footer";
 import { Button } from "flowbite-react";
 import { MdOutlineArrowUpward } from "react-icons/md";
 import { useState } from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [display, setDisplay] = useState("none");
@@ -48,6 +50,7 @@ function App() {
         <Contact />
         <FooterComp />
       </div>
+      <ToastContainer />
     </div>
   );
 }

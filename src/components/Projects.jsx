@@ -7,12 +7,12 @@ const Projects = () => {
     <div id="projects">
       <div className="text-left lg:px-8 px-4 pt-4 mb-5">
         <h3 className="text-2xl lg:text-3xl text-gray-700">My Projects</h3>
-        <p className="text-gray-500 text-md lg:text-xl my-3">
+        <p className="text-gray-500 lg:text-lg leading-7 text-base my-3">
           Here are some of my projects. Click on the image to visit the web
           application.
         </p>
         <a
-          className="text-blue-500 text-md lg:text-xl"
+          className="text-blue-500 lg:text-lg leading-7 text-base"
           href="https://github.com/Timi-cell?tab=repositories"
         >
           Visit my GitHub Page to see more &rarr;

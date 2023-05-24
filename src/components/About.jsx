@@ -11,7 +11,7 @@ const About = () => {
           A little about Samuel
         </h3>
         <p
-          className="lg:text-md leading-7 text-base mb-4 lg:mb-0 text-white text-left"
+          className="lg:text-lg leading-7 text-base mb-4 lg:mb-0 text-white text-left"
           id="about-me"
         >
           My journey started when I developed interest in front-end web
