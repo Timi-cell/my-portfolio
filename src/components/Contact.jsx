@@ -1,56 +1,37 @@
 import { Button, Label, TextInput, Textarea } from "flowbite-react";
-import React, { useState } from "react";
+import React, { useRef } from "react";
 import { toast } from "react-toastify";
 import { HiMail } from "react-icons/hi";
 import { IoLogoWhatsapp } from "react-icons/io";
-
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const [formData, setFormData] = useState(initialState);
-  const { name, email, message } = formData;
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-  const sendMessage =  (e) => {
+  const form = useRef();
+  const sendMessage = (e) => {
     e.preventDefault();
-    toast.info(
-      "Hi, please click on either the Mail/WhatsApp icon to send me a message instead."
-    );
-    // if (!name) {
-    //   toast.info("Please enter your name.");
-    // }
-    // if (!email) {
-    //   toast.info("Please enter your email.");
-    // }
-    // if (!message) {
-    //   toast.info("Please leave a message.");
-    // }
-    // if (!name && !email && !message) {
-    //   toast.info("Please fill in all fields.")
-    // }
-    // try {
-    //   await sendEmail(
-    //     "Message from Portfolio Website",
-    //     message,
-    //     "mernstacktech@outlook.com",
-    //     "mernstacktech@outlook.com",
-    //     email
-    //   );
-    //   toast.success("Message sent!. Please expect my reply in your inbox.")
-    // } catch (error) {
-    //   toast.error(
-    //     "Message could not be sent, please check/change your network connectivity and try again."
-    //   );
-    // }
+    try {
+      emailjs
+        .sendForm(
+          "service_6vvo8fm",
+          "template_2369t2l",
+          form.current,
+          "9XZrfSc4JEXID9eyi"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      e.target.reset();
+      toast.success("Message sent!. Please expect my reply in your inbox.");
+    } catch (error) {
+      toast.error(
+        "Message could not be sent, please check/change your network connectivity and try again."
+      );
+    }
   };
   return (
     <div
@@ -70,6 +51,7 @@ const Contact = () => {
         </div>
       </div>
       <form
+        ref={form}
         onSubmit={sendMessage}
         className="flex flex-col gap-4 w-full md:w-1/2"
       >
@@ -80,11 +62,9 @@ const Contact = () => {
           <TextInput
             id="name"
             type="text"
-            onChange={handleChange}
             placeholder="Your name"
             required={true}
-            name="name"
-            value={name}
+            name="user_name"
           />
         </div>
         <div>
@@ -92,10 +72,8 @@ const Contact = () => {
             <Label className="text-white" htmlFor="email" value="Email" />
           </div>
           <TextInput
-            name="email"
+            name="user_email"
             id="email"
-            onChange={handleChange}
-            value={email}
             type="email"
             placeholder="Your email address"
             required={true}
@@ -108,8 +86,6 @@ const Contact = () => {
           <Textarea
             id="message"
             name="message"
-            onChange={handleChange}
-            value={message}
             placeholder="Leave a message..."
             required={true}
             rows={5}

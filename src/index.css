@@ -41,11 +41,3 @@ img {
   align-items: center;
   justify-content: center;
 }
-/* .Toastify__toast-body {
-  font-family: "Open Sans", sans-serif !important;
-} */
-@media screen and (max-width: 768px) {
-  .Toastify__toast-body {
-    font-size: 1.6rem !important;
-  }
-}
