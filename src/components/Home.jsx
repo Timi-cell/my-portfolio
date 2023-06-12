@@ -3,7 +3,7 @@ import { Button } from "flowbite-react";
 
 const Home = () => {
   return (
-    <div className="px-8 py-0 text-center">
+    <div className="px-8 py-0 flex flex-col-reverse items-center justify-center flex-nowrap gap-5 text-center lg:justify-between lg:text-left lg:flex-row lg:gap-10">
       <div className="flex flex-col items-center justify-between gap-4 lg:block">
         <h2 className="text-gray-900 text-3xl lg:text-5xl dark:text-white font-bold">
           Hi, I'm Aluko Samuel
@@ -25,11 +25,11 @@ const Home = () => {
           </a>
         </div>
       </div>
-      {/* <img
+      <img
         className="w-3/4 lg:w-4/12"
         src="https://res.cloudinary.com/dzqaqbrng/image/upload/v1684950553/photo_pl6yox.jpg"
         alt="profilePic"
-      /> */}
+      />
     </div>
   );
 };
