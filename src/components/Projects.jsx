@@ -22,7 +22,7 @@ const Projects = () => {
       </div>
       <div className="lg:h-96 h-80 overflow-hidden">
         <Carousel indicators={false}>
-          <a
+          {/* <a
             href="https://in-ex.cyclic.app"
             className="h-full w-full"
             target="_blank"
@@ -33,7 +33,7 @@ const Projects = () => {
               alt="inex website"
               className="h-full w-full"
             />
-          </a>
+          </a> */}
           <a
             target="_blank"
             rel="noreferrer"

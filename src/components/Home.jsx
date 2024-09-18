@@ -11,8 +11,9 @@ const Home = () => {
         <p className="text-gray-500 text-xl lg:text-2xl my-3 dark:text-white">
           {/* I'm a FullStack Developer with experience working with HTML, CSS,
           JavaScript, ReactJS, NodeJS, MongoDB, TailwindCSS, Bootstrap and Git. */}
-          Web Designer • JavaScript Developer • FullStack Developer
-          {/* •••••• */}
+          Web Designer • ReactJS Developer 
+        {/* • FullStack Developer */}
+        {/* •••••• */}
         </p>
         <div className="flex flex-row items-center justify-start flex-nowrap gap-3">
           <a href="#projects">

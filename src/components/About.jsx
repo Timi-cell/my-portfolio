@@ -15,14 +15,18 @@ const About = () => {
           id="about-me"
         >
           My journey started when I developed interest in front-end web
-          development and I went ahead to get myself proficient with HTML, CSS and its frameworks like Tailwind and Bootstrap,then JavaScript and I also mastered ReactJS, a JavaScript library for building user interfaces. Afterwards, I thought of being the man that handles not
+          development and I went ahead to get myself proficient with HTML, CSS
+          and its frameworks like Tailwind and Bootstrap, then JavaScript and I
+          also mastered ReactJS, a JavaScript library for building scalable and
+          responsive user interfaces. Hit me up for your creative websites now, Let's build!
+          {/* Afterwards, I thought of being the man that handles not
           just the client side of my applications but also the server side of it
           so I took a liking to back-end web development and learnt and mastered NodeJS, a
           back-end JavaScript runtime environment that can be used to manage the
           server side of an application. I also got myself familiar with ExpressJS, Git, MongoDB
           and later on, I transitioned into a fullstack web developer proficient
           with the MERN(MongoDB, Express, React, Node) stack and I build
-          scalable web applications with it.
+          scalable web applications with it. */}
         </p>
       </div>
       <img
